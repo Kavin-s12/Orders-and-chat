@@ -1,0 +1,42 @@
+
+.App{
+    margin-top: 50px;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.chat-window-container {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+   justify-Content: flex-end;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.order-container {
+    height: 80vh;
+    overflow-y: auto;
+}
+
+.input-form {
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    background-color: #f8f9fa;
+    margin-top: 5px;
+}
+
+.message {
+        height: auto !important;
+}
+
+.message::-webkit-scrollbar, .order-container::-webkit-scrollbar {
+    display: none;
+}
